@@ -1,0 +1,177 @@
+﻿{
+  "first-conversation": {
+    "start": "0",
+    "sections": {
+      "0": {
+        "name": "PlacaVó",
+        "text": "0123456789012345678901234567890123456789012345678901234\n0123456789012345678901234567890123456789012345678901234\n0123456789012345678901234567890123456789012345678901234",
+        "next": "1"
+      },
+      "1": {
+        "name": "Andy",
+        "text": "0123456789012345678901234567890123456789012345678901234\n01234567890123456789012345678901234567890123456789",
+        "next": "2"
+      },
+      "2": {
+        "name": "PlacaVó",
+        "text": "0123456789012345678901234567890123456789012345678901234\n0123456789012345678901234567890123456789012345678901234\n01234567890123456789012345678901",
+        "next": ""
+      }
+    }
+  },
+  "introduction": {
+    "start": "0",
+    "sections": {
+      "0": {
+        "name": "",
+        "text": "Este é o Andy. Ele é um estagiário no Instituto Federal de\nEnsino de Lógica e Sistemas Educativos (IFELSE).",
+        "next": "1"
+      },
+      "1": {
+        "name": "",
+        "text": "Ele resolveu ajudar alguém que falou com ele por um\ncomputador e agora ele está a bordo de um submarino a\ncaminho de uma ilha misteriosa.",
+        "next": "2"
+      },
+      "2": {
+        "name": "PlacaVó",
+        "text": "Andy, eu não me apresentei quando falamos antes. Meu\nnome é PlacaVó. Eu sou a inteligencia artificial que\ncontrola a ilha de testes do IFELSE",
+        "next": "3"
+      },
+      "3": {
+        "name": "PlacaVó",
+        "text": "Muitos dos sistemas da ilha estão com defeito no código\nfonte e preciso que você faça as correções porque\nperdi o contato com eles.",
+        "next": "4"
+      },
+      "4": {
+        "name": "Andy",
+        "text": "Mas eu não sei programar.",
+        "next": ""
+      }
+    }
+  },
+  "first-challange": {
+    "start": "0",
+    "sections": {
+      "0": {
+        "name": "PlacaVó",
+        "text": "Parece que colidimos com alguma coisa.",
+        "next": "1"
+      },
+      "1": {
+        "name": "PlacaVó",
+        "text": "Meu deus. Parece que o sistema de navegação do\nsubmarino parou de funcionar.",
+        "next": "2"
+      },
+      "2": {
+        "name": "PlacaVó",
+        "text": "Os sensores indicam que a parte mecânica do submarino\nestá funcionando perfeitamente, mas perdemos a parte\ncomputacional. Preciso que você refaça o algoritmo de",
+        "next": "3"
+      },
+      "3": {
+        "name": "PlacaVó",
+        "text": "navegação. Não é nada difícil. Um algoritmo nada mais é\ndo que uma sequência finita de instruções bem definidas\ne não ambíguas, cada uma das quais devendo",
+        "next": "4"
+      },
+      "4": {
+        "name": "PlacaVó",
+        "text": "ser executadas mecânica ou eletrônicamente em um\nintervalo de tempo finito e com uma quantidade de\nesforço finita.",
+        "next": "5"
+      },
+      "5": {
+        "name": "PlacaVó",
+        "text": "Podemos comparar um algoritmo com uma receita de bolo.\nTemos as instruções passo a passo do que fazer e\nseguindo-as sempre chegaremos no mesmo resultado.",
+        "next": "6"
+      },
+      "6": {
+        "name": "PlacaVó",
+        "text": "Agora, para refazer o algoritmo de navegação, é só\nacessar o computador próximo a você.",
+        "next": ""
+      }
+    }
+  },
+  "first-challange-tutorial": {
+    "start": "0",
+    "sections": {
+      "0": {
+        "name": "PlacaVó",
+        "text": "Essa é a interface de programação encontrada nos\nsistemas do IFELSE. Sempre que você for corrigir algo utilizará\nela.",
+        "next": ""
+      }
+    }
+  },
+  "second-challange-tutorial": {
+    "start": "1",
+    "sections": {
+      "1": {
+        "name": "PlacaVó",
+        "text": "Para você criar algum código, é só clicar e arrastar o\nbloco da coluna esquerda para a direita. Quando estiver\nsatisfeito, é só clicar em executar",
+        "next": "2"
+      },
+      "2": {
+        "name": "PlacaVó",
+        "text": "E para parar de fazer o que está fazendo é só clicar em\nsair.",
+        "next": "3"
+      },
+      "3": {
+        "name": "PlacaVó",
+        "text": "Vamos parar com o papo e colocar a mão na massa.\nPreciso que você faça o algoritmo de navegação. Para isso,\ncoloque os comandos para que o submarino chegue ao outro",
+        "next": "4"
+      },
+      "4": {
+        "name": "PlacaVó",
+        "text": "lado da tela, sem colidir com nenhuma rocha. Caso haja\ncolisão com alguma rocha, o sistema se reinicializará\ne você terá que alterar o código.",
+        "next": "5"
+      },
+      "5": {
+        "name": "PlacaVó",
+        "text": "Conto com você Andy.",
+        "next": ""
+      }
+    }
+  },
+  "end-first-challange": {
+    "start": "1",
+    "sections": {
+      "1": {
+        "name": "PlacaVó",
+        "text": "Parabéns Andy, você conseguiu. Agora já estamos quase\nchegando na ilha.",
+        "next": ""
+      }
+    }
+  },
+  "info-room-start": {
+    "start": "1",
+    "sections": {
+      "1": {
+        "name": "PlacaVó",
+        "text": "Esse é o balcão de informações. Você pode tirar suas\ndúvidas com o Whily.\n",
+        "next": "2"
+      },
+      "2": {
+        "name": "Andy",
+        "text": "O Whily é esse robô quebrado atrás do balcão?",
+        "next": "3"
+      },
+      "3": {
+        "name": "PlacaVó",
+        "text": "Oh não. O Whily também está com defeito!!\nVou rodar uma rotina para diagnosticar o problema",
+        "next": "4"
+      },
+      "4": {
+        "name": "PlacaVó",
+        "text": "......................................................\n......................................................",
+        "next": "5"
+      },
+      "5": {
+        "name": "PlacaVó",
+        "text": "Terminei.\nAparentemente as baterias dele estão descarregadas\nAndy, você poderia pegá-las no depósito que tem nos\nfundos?",
+        "next": "6"
+      },
+      "6": {
+        "name": "Andy",
+        "text": "Pode deixar comigo.",
+        "next": ""
+      }
+    }
+  }
+}
